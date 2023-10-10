@@ -42,7 +42,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['ChromeHeadless'],
+    browsers: ['FirefoxHeadless'],
     singleRun: false,
     restartOnFileChange: true
   });
